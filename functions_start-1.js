@@ -23,13 +23,7 @@ function listTriangularNumbers(n) {
     var array = [];
     for (i = 1; i <= n; ++i) {
         num = i;
-<<<<<<< HEAD
-        for (j = i - 1; j >= 1; --j) {
-            num = num + j;
-        }
-=======
-        num = num*(num+1)/2;
->>>>>>> origin/master
+        num = num * (num + 1) / 2;
         array.push(num);
     }
     return array;
